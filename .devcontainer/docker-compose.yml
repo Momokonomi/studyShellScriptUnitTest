@@ -9,4 +9,5 @@ services:
         user: devuser
         volumes:
             - ../:/home/devuser/src
+            - ~/.ssh/id_rsa:/home/devuser/.ssh/id_rsa
         tty: true
